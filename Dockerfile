@@ -39,10 +39,6 @@ RUN apk add -U --no-cache \
   dumb-init \
   ip6tables
 
-# Expose Ports
-EXPOSE 51820/udp
-EXPOSE 51821/tcp
-
 # Set Environment
 ENV DEBUG=Server,WireGuard
 
